@@ -13,7 +13,7 @@
     <body>
     	<section id="home">
         <div class='content'>
-        	<h1>Hi I'm </h1>
+        	<h1>Happy Birthday </h1>
         </div>
         </section>
         <canvas id="canvas"></canvas>
@@ -65,11 +65,20 @@
                 </div>
             </div>
         </div>
-        
-       
-        
+        <p id="txt"></p>
         
         <script src="js/index.js"></script>
+        <script>
+        	$(function(){
+
+    $("#txt").typed({
+      strings: ["Chúc Mừng Sinh Nhật Thanh Trà ( 15-11-1999 )" ,"Chúc Trà có một sinh nhật thật là vui vẻ !","Chúc Trà gặp nhiều thành công trong cuộc sống !","Best Wishes For You !"],
+      typeSpeed: 30,
+      smartBackspace: true
+    });
+
+  });
+        </script>
         
     </body>
 </html>
